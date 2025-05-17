@@ -78,6 +78,12 @@ Evaluation chart showing GED and Levenshtein similarity
 
 Matplotlib visual of pipeline steps
 
+🖼️ Example DAG Output
+Below is a visualization of an extracted data analytics pipeline, showing key components (e.g., dataset, preprocessing, algorithm, evaluation metric) and their dependencies.
+
+<p align="center"> <img src="Pipeline4.jpg" alt="Example DAG Pipeline" width="600"> </p>
+The graph is auto-generated using networkx + matplotlib after parsing and structuring the methodology section.
+
 📌 Notes
 Large models are quantized or chunked to run under 16GB GPU (e.g., Kaggle or Colab)
 
@@ -90,8 +96,3 @@ MIT License — see LICENSE for details.
 
 🤝 Contributions
 Feel free to open issues or pull requests if you’d like to extend or adapt this pipeline!
-
-
----
-
-Would you like me to include a sample output or visualization snippet as part of the README?
